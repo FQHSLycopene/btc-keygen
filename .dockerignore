@@ -1,0 +1,47 @@
+# Git相关
+.git
+.gitignore
+.gitattributes
+
+# 构建输出
+bin/
+dist/
+releases/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+*.test
+coverage.out
+coverage.html
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+
+# 文档构建
+docs/_build/
+
+# 其他
+Makefile
+Dockerfile
+.dockerignore 
